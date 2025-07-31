@@ -26,7 +26,7 @@ def check():
             speak("Enter a higher number")
         else:
             result_label.config(
-                text=f"🎉 Correct! You guessed in {guesses} attempts.\nComputer chose {computer}"
+                text=f" Correct! You guessed in {guesses} attempts.\nComputer chose {computer}"
             )
             speak("Congratulations! You guessed the correct number.")
             speak(f"You took {guesses} attempts.")
